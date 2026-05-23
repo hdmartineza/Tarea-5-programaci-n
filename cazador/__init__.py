@@ -15,6 +15,7 @@ from cazador.excepciones import (
     ErrorInesperado,
     ErrorLongitudInvalida,
 )
+from cazador.Entornografico import EntornoGrafico, iniciar_entorno_grafico
 from cazador.juego import JuegoCazador
 
 CofreBase = Cofre
@@ -27,10 +28,12 @@ __all__ = [
     "CofreMaldito",
     "CofreRaro",
     "Contrasena",
+    "EntornoGrafico",
     "ErrorContrasenaInvalida",
     "ErrorEntradaNoNumerica",
     "ErrorInesperado",
     "ErrorLongitudInvalida",
     "FabricaCofres",
     "JuegoCazador",
+    "iniciar_entorno_grafico",
 ]
